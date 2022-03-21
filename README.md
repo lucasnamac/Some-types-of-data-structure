@@ -1,2 +1,2 @@
-# Some tyoes of data structure
+# Some types of data structure
  
