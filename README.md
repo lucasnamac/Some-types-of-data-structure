@@ -36,10 +36,17 @@ do{
 
 ### Dynamic Queue
 
-A dynamic queue is a data structure that consists of a set of elements that are placed sequentially one after another. In this case, the addition of elements is carried out on the one hand, and the removal (stretching) on the other hand. The queue works according to the FIFO principle – First In – First Out. In image below we can see a representation it.
+A dynamic queue is a data structure that consists of a set of elements that are placed sequentially one after another. In this case, the addition of elements is carried out on the one hand, and the removal (stretching) on the other hand. In image below we can see a representation it.
 
 ![DynamicQueue](./resources/Dynamicqueue.jpg)
 
 
 #### How to work ?
 
+The queue works according to the FIFO principle – First In – First Out i.e. the first element is processed first and the newest element is processed last.
+The manager of delete and insertion is did by two function called <i>insere_fim</i> and <i>remove_ini</i>.
+
+
+##### Operations
+
+* 
