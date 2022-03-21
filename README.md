@@ -27,8 +27,19 @@ do{
 ##### Operations
 
 * cria_fila: This function create a pointer to structure queue.
-* fila_vaia: This function verify if queue is empty.
+* fila_vazia: This function verify if queue is empty.
 * insere_fim: This function create a node where will be stored new element e after node will be linked in the last postion of queue.
 * remove_ini: This function remove first element of queue. To do this is need manager pointer.
 * imprimir: This function show all elements of queue.
 * menu: This function was create to keep a interactive with user.
+
+
+### Dynamic Queue
+
+A dynamic queue is a data structure that consists of a set of elements that are placed sequentially one after another. In this case, the addition of elements is carried out on the one hand, and the removal (stretching) on the other hand. The queue works according to the FIFO principle – First In – First Out. Figure 1 shows the principle of operation of the queue. In image below we can see a representation it.
+
+![DynamicQueue](./resources/Dynamicqueue.jpg)
+
+
+#### How to work ?
+
