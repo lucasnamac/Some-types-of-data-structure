@@ -58,5 +58,28 @@ The manager of delete and insertion is did by two function called <i>insere_fim<
 
 
 
+### Sorted Dynamic List
 
-### 
+ It's an variation of linked list, because the element is inserted in an orderly manner, then the use of sorting algorithm after insetion it's not necessary. 
+
+ ![SortedDynamic](./resources/sorteddynamiclist.png)
+
+
+#### How to work ?
+
+It's work by means nodes. Every that an element is inserted is created a node that store the element and after the node will be linked in list according to sort criterion. To remove a node is necessary manipulation of pointers and after deallocation of removed node. This code implemmented some functions of manipulation of list. I will talk about it in operations topic.
+
+##### Operations
+
+* cria_lista: This function create a pointer to list structure.
+* lista_vazia: This function verify if the list is empty.
+* insere_ord: This function insert element in position following the sort crterion.
+* remove_ord: This function receive a element that will be search in list. If there is this element in list then it removed and done the manipulation of pointers. If there isn't this element in list then is return 0.
+* imprimir: This function show all elements of list.
+* removerImpares: This function removed all odd elements of list.
+* menor: This function return less element of list.
+* tamanho: This function return length of list.
+* Iguais: This function compare if two lists are equals. if they are the same then return 1 else return 0.
+* Intercala: This function receive two lists and does merge between two lists keeping the ordination.
+
+
