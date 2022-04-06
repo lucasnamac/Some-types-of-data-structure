@@ -52,7 +52,7 @@ The manager of delete and insertion is did by two function called <i>insere_fim<
 * cria_fila: Create a pointer to the queue structure.
 * fila_vazia: This function verify if  queue is empty.
 * insere_fila: This function allocate a node and stores the element inside that node. Done that is  made the manipulation of pointers and insertion of node in the last position of queue.
-* remove_ini: This function remove first element of queue. This is done by means of manipulation of pointers and through deallocation of node removed.
+* remove_ini: This function remove first element of queue. This is done by means of manipulation of pointers and through deallocation of removed node.
 * imprimir: This function show all elements of the queue.
 * menu: This function was create to keep a interactive with user.
 
