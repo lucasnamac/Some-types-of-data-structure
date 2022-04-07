@@ -60,14 +60,14 @@ The manager of delete and insertion is did by two function called <i>insere_fim<
 
 ### Sorted Dynamic List
 
- It's an variation of linked list, because the element is inserted in an orderly manner, then the use of sorting algorithm after insetion it's not necessary. 
+ It's an variation of linked list, because the element is inserted in an orderly manner, then the use of sorting algorithms after insetion it's not necessary. 
 
  ![SortedDynamic](./resources/sorteddynamiclist.png)
 
 
 #### How to work ?
 
-It's work by means nodes. Every that an element is inserted is created a node that store the element and after the node will be linked in list according to sort criterion. To remove a node is necessary manipulation of pointers and after deallocation of removed node. This code implemmented some functions of manipulation of list. I will talk about it in operations topic.
+It's work by means nodes. Every that an element is inserted is created a node that store the element and after the node will be linked in list according to sort criterion. To remove a node is necessary manipulation of pointers and deallocation of removed node. This code implements some functions of manipulation of list. I will talk about it in operations topic.
 
 ##### Operations
 
