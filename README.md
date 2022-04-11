@@ -83,3 +83,22 @@ It's work by means nodes. Every that an element is inserted is created a node th
 * Intercala: This function receive two lists and does merge between two lists keeping the ordination.
 
 
+### Sorted Dynamic List with head
+
+It's an variation of sorted dynamic list, because the first node will be a head. This node will store amount elements of list.
+
+![SortedDynamicListWithHead](./)
+
+#### How to work ?
+
+It's work like as Sorted Dynamic List, but the first node wil be used to store amount elements of list. This is done in function called insere. All other functions are the same as in the other structure called sorted dynamic list already explained.
+
+##### Operations
+
+* insere_ord: This function does allocation of node and find your the positon correct to put it on of list, but the search begin of second element, because the first element is amount of elements. And after is through pointers manipulation.
+
+
+
+
+
+
