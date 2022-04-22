@@ -87,18 +87,43 @@ It's work by means nodes. Every that an element is inserted is created a node th
 
 It's an variation of sorted dynamic list, because the first node will be a head. This node will store amount elements of list.
 
-![SortedDynamicListWithHead](./)
+![SortedDynamicListWithHead](./resources/sorteddynamiclistHead.png)
 
 #### How to work ?
 
-It's work like as Sorted Dynamic List, but the first node wil be used to store amount elements of list. This is done in function called insere. All other functions are the same as in the other structure called sorted dynamic list already explained.
+It's work like as Sorted Dynamic List, but the first node wil be used to store amount elements of list. This is done in function insere_ord. Some functions are the same as in the other structure sorted dynamic list already explained. Bellow will explain only functions that are different.
 
 ##### Operations
 
-* insere_ord: This function does allocation of node and find your the positon correct to put it on of list, but the search begin of second element, because the first element is amount of elements. And after is through pointers manipulation.
+* insere_ord: This function does allocation of node and find your the positon correct to put it on of list, <i>but the search begin of second element</i>, because the first element is amount of elements. And after is through pointers manipulation.
+* remove: In this function is search the node of the element that will be removed and for this, the search start in second node. When the node is found then it's removed and done pointers manipulation. 
+* imprimir: This function show all elements of the list, but to this it is necessary start in second node. Bellow is show the code line that do it.
+
+```c
+    Lista Aux=lst->prox;
+
+```
+
+* tamanho: This function return first node, because on them is the amount elements.
+
+
+### Sorted Static List 
 
 
 
+### Static List
 
 
+In Static data structure the size of the structure is fixed. The content of the data structure can be modified but without changing the memory space allocated to it.
 
+#### How to work ?
+
+First is defined a size to list. Then is inserted a element in position corresponding by index variable. This structure is used when we know amount of the element that be inserted in list.
+
+##### Operations
+
+* cria_lista: Create a structure that will allow store all elements of list and a index that will point to the last element if list.
+* lista_vazia: Verify if list is empty.
+* list_cheia: Verify if list is full.
+* insere_elem: The element is inserted in the last position of list. It's possible because we know last position that is in index variable called of <i>Fim</i>.
+* remove_elem: 

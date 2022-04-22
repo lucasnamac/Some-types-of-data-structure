@@ -52,7 +52,7 @@ int remove_elem (Lista lst, int elem) {
 
 int insere_inicio(Lista lst, int elem){
     int i=0;
-    if(lst==NULL || lista_cheia(lst)==1) return 0; //ERRO
+    if(lst==NULL || lista_cheia(lst)==1) return 0; 
 
      if(lista_vazia(lst)==1){
         lst->no[lst->Fim]=elem;
@@ -102,13 +102,13 @@ int RemoveImpares(Lista lst){
             lst->Fim--;
         }
     }
-    return 1; //Sucesso
+    return 1;
 }
 
 int menor(Lista lst, int *tam){
     int i;
 
-    if(lst== NULL || lista_vazia(lst)==1) return 0; //Sucesso
+    if(lst== NULL || lista_vazia(lst)==1) return 0; 
 
     *tam=lst->no[lst->Fim];
 
@@ -147,21 +147,21 @@ Lista intercala(Lista l1, Lista l2){
     }
 
     l3->Fim = 0;
-    if(lista_vazia(l1)==1){ //Verifica se a lista 1 esta vazia
+    if(lista_vazia(l1)==1){
         for(i = 0; i < l2->Fim;i++){
             l3->no[i] = l2->no[i];
             l3->Fim++;
         }
 
     }
-    else if(lista_vazia(l2)==1){    //Verifica se a lista 2 esta vazia
+    else if(lista_vazia(l2)==1){   
         for(i = 0; i < l1->Fim;i++){
             l3->no[l3->Fim] = l1->no[i];
             l3->Fim++;
         }
     }
     else{
-        while(l3->Fim<soma){    // Insere na l3 os elementos da l1 e depois da l2
+        while(l3->Fim<soma){   
             for(i=0; i<l1->Fim; i++){
                 l3->no[l3->Fim]=l1->no[i];
                 l3->Fim++;
