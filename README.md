@@ -109,6 +109,12 @@ It's work like as Sorted Dynamic List, but the first node wil be used to store a
 
 ### Sorted Static List 
 
+It's variation of static list. Here the elements are sorted during the insertion process.
+
+
+#### How to work ?
+
+
 
 
 ### Static List
